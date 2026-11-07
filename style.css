@@ -1,0 +1,103 @@
+body {
+  font-family: arial;
+  color: whitesmoke;
+}
+/* la section de la page */
+.page {
+  background-color: whitesmoke;
+}
+/* le haut de page */
+header {
+  background-color: rgb(255, 38, 0);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+/* le bas de page */
+footer {
+  background-color: rgb(255, 38, 0);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  margin-top: 2%;
+}
+/* la partie produits */
+.produits {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px;
+  justify-content: space-between;
+  gap: 10px;
+}
+.produit {
+  width: 295px;
+  height: 430px;
+  color: orangered;
+  background-color: white;
+  align-items: center;
+  object-fit: cover;
+  border: 1px solid white;
+  border-radius: 22px;
+  transition: all ease 0.3s;
+}
+.produit:hover {
+  transform: translateY(-12px);
+}
+.produit img {
+  width: 100%;
+  height: 250px;
+}
+.bouton button {
+  color: white;
+  background-color: rgb(255, 38, 0);
+  padding: 10px;
+  width: 110px;
+  border-radius: 22px;
+}
+
+/* pour le questionnement faq */
+.question p {
+  display: none;
+  width: 390px;
+  height: auto;
+  color: rgb(255, 38, 0);
+  background-color: white;
+  align-items: center;
+  border-radius: 22px;
+  text-align: center;
+  justify-self: center;
+  padding: 13px;
+  line-height: 0.6cm;
+}
+.question {
+  width: 510px;
+  height: auto;
+  color: white;
+  background-color: rgb(255, 38, 0);
+  align-items: center;
+  border-radius: 22px;
+  text-align: center;
+  justify-self: center;
+  padding: 15px;
+  margin-top: 1%;
+  transition: all ease 0.3s;
+}
+
+.question.passive p {
+  display: block;
+}
+/* pour le defilement de la page */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all ease 3s;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
