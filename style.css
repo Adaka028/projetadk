@@ -105,12 +105,14 @@ footer {
   transform: translateY(0);
 }
 /* pour le bouton js */
-.important {
+.supprimer {
   color: rgb(255, 38, 0);
   background-color: white;
   padding: 10px;
   border-radius: 15px;
   width: 100px;
+  font-weight: bold;
+  line-height: 0.8cm;
 }
 /* pour la liste de panier */
 
@@ -123,4 +125,8 @@ footer {
   justify-self: center;
   align-items: center;
   padding: 10px;
+}
+.article {
+  line-height: 0.6cm;
+  font-weight: bold;
 }
