@@ -15,6 +15,7 @@ header {
   align-items: center;
   position: sticky;
   z-index: 100;
+  margin-top: 2%;
   top: 0;
 }
 /* le bas de page */
@@ -41,7 +42,7 @@ footer {
   background-color: white;
   align-items: center;
   object-fit: cover;
-  border: 1px solid white;
+  border: 0.2px solid rgb(245, 237, 237);
   border-radius: 22px;
   transition: all ease 0.3s;
 }
@@ -51,13 +52,15 @@ footer {
 .produit img {
   width: 100%;
   height: 250px;
+  border-radius: 19px;
 }
-.bouton button {
+.produit button {
   color: white;
   background-color: rgb(255, 38, 0);
   padding: 10px;
   width: 110px;
   border-radius: 22px;
+  border: 1px solid rgb(255, 38, 0);
 }
 
 /* pour le questionnement faq */
@@ -100,4 +103,24 @@ footer {
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
+}
+/* pour le bouton js */
+.important {
+  color: rgb(255, 38, 0);
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100px;
+}
+/* pour la liste de panier */
+
+.panier {
+  background-color: rgb(255, 38, 0);
+  color: white;
+  width: 400px;
+  border-radius: 19px;
+  text-align: center;
+  justify-self: center;
+  align-items: center;
+  padding: 10px;
 }
