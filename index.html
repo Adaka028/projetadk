@@ -9,42 +9,56 @@
   <body>
     <header>
       <h2>ADK PROJET</h2>
+      <p>
+        <strong>Article(s):<span id="nombre">0</span></strong>
+      </p>
     </header>
+
     <section class="page">
       <div class="produits reveal">
         <div class="produit">
-          <img src="" alt="" />
-          <h3></h3>
-          <p><strong>Prix:</strong></p>
-          <div class="bouton">
-            <button><strong>Acheter</strong></button>
-          </div>
+          <img src="image/black premium.jpg" alt="" />
+          <h3>Premium</h3>
+          <p><strong>Prix:20$</strong></p>
+          <button class="ajouter" data-nom="Premiums" data-prix="20">
+            <strong>Acheter</strong>
+          </button>
         </div>
+
         <div class="produit">
-          <img src="" alt="" />
-          <h3></h3>
-          <p><strong>Prix:</strong></p>
-          <div class="bouton">
-            <button><strong>Acheter</strong></button>
-          </div>
+          <img src="image/hp3.jpg" alt="" />
+          <h3>hp</h3>
+          <p><strong>Prix:20$</strong></p>
+          <button class="ajouter" data-nom="hp" data-prix="20">
+            <strong>Acheter</strong>
+          </button>
         </div>
+
         <div class="produit">
-          <img src="" alt="" />
-          <h3></h3>
-          <p><strong>Prix:</strong></p>
-          <div class="bouton">
-            <button><strong>Acheter</strong></button>
-          </div>
+          <img src="image/s26ultra.jpeg" alt="" />
+          <h3>Samsung</h3>
+          <p><strong>Prix:200$</strong></p>
+          <button class="ajouter" data-nom="Samsung" data-prix="200">
+            <strong>Acheter</strong>
+          </button>
         </div>
+
         <div class="produit">
-          <img src="" alt="" />
-          <h3></h3>
-          <p><strong>Prix:</strong></p>
-          <div class="bouton">
-            <button><strong>Acheter</strong></button>
-          </div>
+          <img src="image/aipod pro3.jpg" alt="" />
+          <h3>Pro</h3>
+          <p><strong>Prix:30$</strong></p>
+
+          <button class="ajouter" data-nom="Pro" data-prix="30">
+            <strong>Acheter</strong>
+          </button>
         </div>
       </div>
+      <div class="panier">
+        <h2>MON PANIER</h2>
+        <ul id="liste"></ul>
+        <h3>Total:<span id="total">0</span> $</h3>
+      </div>
+
       <div class="question">
         <h3>Pourquoi c'est projet ?</h3>
         <p>
