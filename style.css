@@ -97,7 +97,7 @@ footer {
 /* pour le defilement de la page */
 .reveal {
   opacity: 0;
-  transform: translateY(40px);
+  transform: translateY(40px); 
   transition: all ease 3s;
 }
 .reveal.active {
